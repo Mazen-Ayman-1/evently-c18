@@ -6,6 +6,7 @@ import 'package:evently_c16_mon/ui/auth/forget_password_screen.dart';
 import 'package:evently_c16_mon/ui/auth/login_screen.dart';
 import 'package:evently_c16_mon/ui/auth/register_screen.dart';
 import 'package:evently_c16_mon/ui/home/home_screen.dart';
+import 'package:evently_c16_mon/ui/manage_events/manage_events_screen.dart';
 import 'package:evently_c16_mon/ui/setup/setup_screen.dart';
 import 'package:evently_c16_mon/ui/splash/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -45,6 +46,7 @@ class MyApp extends StatelessWidget {
             RegisterScreen.routeName: (_) => RegisterScreen(),
             HomeScreen.routeName: (_) => HomeScreen(),
             ForgetPasswordScreen.routeName: (_) => ForgetPasswordScreen(),
+            ManageEventsScreen.routeName :(_) => ManageEventsScreen()
           },
           initialRoute: SplashScreen.routeName,
         );

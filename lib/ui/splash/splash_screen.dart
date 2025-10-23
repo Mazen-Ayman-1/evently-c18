@@ -17,8 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 3)).then((_) {
-      // var loggedIn = FirebaseAuthService().isLoggedIn();
-      var loggedIn = false;
+      var loggedIn = FirebaseAuthService().isLoggedIn();
       var initialRoute = loggedIn? HomeScreen.routeName : SetupScreen.routeName;
       Navigator.pushReplacementNamed(context, initialRoute);
     });

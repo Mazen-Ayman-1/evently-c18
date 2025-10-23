@@ -48,4 +48,20 @@ class DataValidator {
     }
     return null;
   }
+
+  static String? titleValidation(String? input) {
+    input ??= "";
+    if (input.isEmpty) {
+      return "Title Can't Be Empty";
+    }
+    return null;
+  }
+
+  static String? descriptionValidation(String? input) {
+    input ??= "";
+    if (input.isEmpty) {
+      return "Description Can't Be Empty";
+    }
+    return null;
+  }
 }

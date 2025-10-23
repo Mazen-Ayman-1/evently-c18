@@ -16,6 +16,13 @@ abstract class AppTheme {
       onSurface: AppColors.purple,
     ),
 
+    /// bottom navigation bar theme
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      backgroundColor: AppColors.purple,
+      selectedItemColor: AppColors.white,
+      unselectedItemColor: AppColors.white
+    ),
+
     /// app most used buttons
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
@@ -95,6 +102,8 @@ abstract class AppTheme {
       ),
     ),
   );
+
+
   static ThemeData darkTheme = ThemeData(
     /// the application colors
     colorScheme: ColorScheme(
@@ -108,6 +117,14 @@ abstract class AppTheme {
       surface: AppColors.darkPurple,
       onSurface: AppColors.white,
     ),
+
+    /// bottom navigation bar theme
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor: AppColors.darkPurple,
+        selectedItemColor: AppColors.white,
+        unselectedItemColor: AppColors.white
+    ),
+
 
     /// app most used buttons
     filledButtonTheme: FilledButtonThemeData(
