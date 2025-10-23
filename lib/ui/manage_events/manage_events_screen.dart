@@ -231,7 +231,7 @@ class _ManageEventsScreenState extends State<ManageEventsScreen> {
                           selectedTime!.hour,
                           selectedTime!.minute,
                         ).millisecondsSinceEpoch,
-                    categoryId: selectedCategory.id,
+                    category: selectedCategory,
                   ),
                 );
                 Navigator.pop(context);

@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:evently_c16_mon/models/category_dm.dart';
 
 class EventDm {
   String id;
@@ -6,7 +7,8 @@ class EventDm {
   String description;
   int date;
   int time;
-  int categoryId;
+  CategoryDm category;
+  List<String> favoriteUsers;
 
   EventDm({
     required this.id,
@@ -14,7 +16,8 @@ class EventDm {
     required this.description,
     required this.date,
     required this.time,
-    required this.categoryId,
+    required this.category,
+    this.favoriteUsers = const [],
   });
 
   factory EventDm.fromFirestore(
@@ -28,7 +31,11 @@ class EventDm {
       description: data["description"],
       date: data["date"],
       time: data["time"],
-      categoryId: data["categoryId"],
+      favoriteUsers:
+          ((data["favoriteUsers"] ?? []) as List<dynamic>)
+              .map((e) => e.toString())
+              .toList(),
+      category: categoriesList.firstWhere((e) => e.id == data["categoryId"]),
     );
   }
 
@@ -39,7 +46,8 @@ class EventDm {
       "description": description,
       "date": date,
       "time": time,
-      "categoryId": categoryId,
+      "categoryId": category.id,
+      "favoriteUsers": favoriteUsers,
     };
   }
 }

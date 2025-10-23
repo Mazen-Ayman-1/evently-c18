@@ -1,4 +1,5 @@
 import 'package:evently_c16_mon/core/theme/app_colors.dart';
+import 'package:evently_c16_mon/ui/home/favorite_tab/favorite_tab.dart';
 import 'package:evently_c16_mon/ui/home/home_tab/home_tab.dart';
 import 'package:evently_c16_mon/ui/home/profile_tab/profile_tab.dart';
 import 'package:evently_c16_mon/ui/manage_events/manage_events_screen.dart';
@@ -20,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     HomeTab(),
     Center(child: Text("2", style: Theme.of(context).textTheme.titleLarge)),
     Center(child: Text("5", style: Theme.of(context).textTheme.titleLarge)),
-    Center(child: Text("3", style: Theme.of(context).textTheme.titleLarge)),
+    FavoriteTab(),
     ProfileTab()
   ];
 
