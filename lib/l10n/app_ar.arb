@@ -29,5 +29,13 @@
   "passwordLength": "يجب أن تكون كلمة المرور أطول من 8 أحرف",
   "rePasswordRequired": "تأكيد كلمة المرور مطلوب",
   "passwordsNotMatch": "كلمتا المرور غير متطابقتين",
-  "resetPassword" : "اعاده تعيين كلمه المرور"
+  "resetPassword" : "اعاده تعيين كلمه المرور",
+  "chooseYourPreferredThemeAndLanguageMessage": "اختر اللغة ونمط العرض المفضلين لديك لتبدأ تجربة مريحة ومصممة خصيصًا لتناسب أسلوبك.",
+  "letsStart": "لنبدأ",
+  "findEventsThatInspireYou": "ابحث عن الأحداث التي تلهمك",
+  "eventDiscoveryDescription": "اكتشف الأحداث التي تناسب اهتماماتك وشغفك.",
+  "effortlessEventPlanning": "تخطيط أحداث سهل",
+  "effortlessEventPlanningDescription": "خطط لأحداثك بكل سهولة وكفاءة.",
+  "connectwithFriendsandShareMoments": "تواصل مع الأصدقاء وشارك اللحظات",
+  "connectWithFriendsDescription": "ابق على تواصل وشارك لحظاتك المفضلة مع الأصدقاء."
 }

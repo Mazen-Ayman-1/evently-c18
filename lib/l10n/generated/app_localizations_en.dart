@@ -15,7 +15,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get personalizeYourExperience => 'Personalize Your Experience';
 
   @override
-  String get setupMessage => 'Choose your preferred theme and language to get started with a comfortable, tailored experience that suits your style.';
+  String get setupMessage =>
+      'Choose your preferred theme and language to get started with a comfortable, tailored experience that suits your style.';
 
   @override
   String get language => 'Language';
@@ -100,4 +101,33 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get resetPassword => 'Reset Password';
+
+  @override
+  String get chooseYourPreferredThemeAndLanguageMessage =>
+      'Choose your preferred theme and language to get started with a comfortable, tailored experience that suits your style.';
+
+  @override
+  String get letsStart => 'Let\'s Start';
+
+  @override
+  String get findEventsThatInspireYou => 'Find Events That Inspire You';
+
+  @override
+  String get eventDiscoveryDescription =>
+      'Discover events that match your interests and passions.';
+
+  @override
+  String get effortlessEventPlanning => 'Effortless Event Planning';
+
+  @override
+  String get effortlessEventPlanningDescription =>
+      'Plan your events with ease and efficiency.';
+
+  @override
+  String get connectwithFriendsandShareMoments =>
+      'Connect with Friends and Share Moments';
+
+  @override
+  String get connectWithFriendsDescription =>
+      'Stay connected and share your favorite moments with friends.';
 }

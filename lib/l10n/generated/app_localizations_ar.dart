@@ -15,7 +15,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personalizeYourExperience => 'خصص تجربتك';
 
   @override
-  String get setupMessage => 'اختر اللغة ونمط العرض المفضلين لديك لتبدأ تجربة مريحة ومصممة خصيصًا لتناسب أسلوبك.';
+  String get setupMessage =>
+      'اختر اللغة ونمط العرض المفضلين لديك لتبدأ تجربة مريحة ومصممة خصيصًا لتناسب أسلوبك.';
 
   @override
   String get language => 'اللغة';
@@ -78,16 +79,20 @@ class AppLocalizationsAr extends AppLocalizations {
   String get passwordRequired => 'كلمة المرور مطلوبة';
 
   @override
-  String get passwordUppercase => 'يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل';
+  String get passwordUppercase =>
+      'يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل';
 
   @override
-  String get passwordLowercase => 'يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل';
+  String get passwordLowercase =>
+      'يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل';
 
   @override
-  String get passwordNumber => 'يجب أن تحتوي كلمة المرور على رقم واحد على الأقل';
+  String get passwordNumber =>
+      'يجب أن تحتوي كلمة المرور على رقم واحد على الأقل';
 
   @override
-  String get passwordSpecialChar => 'يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل';
+  String get passwordSpecialChar =>
+      'يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل';
 
   @override
   String get passwordLength => 'يجب أن تكون كلمة المرور أطول من 8 أحرف';
@@ -100,4 +105,33 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get resetPassword => 'اعاده تعيين كلمه المرور';
+
+  @override
+  String get chooseYourPreferredThemeAndLanguageMessage =>
+      'اختر اللغة ونمط العرض المفضلين لديك لتبدأ تجربة مريحة ومصممة خصيصًا لتناسب أسلوبك.';
+
+  @override
+  String get letsStart => 'لنبدأ';
+
+  @override
+  String get findEventsThatInspireYou => 'ابحث عن الأحداث التي تلهمك';
+
+  @override
+  String get eventDiscoveryDescription =>
+      'اكتشف الأحداث التي تناسب اهتماماتك وشغفك.';
+
+  @override
+  String get effortlessEventPlanning => 'تخطيط أحداث سهل';
+
+  @override
+  String get effortlessEventPlanningDescription =>
+      'خطط لأحداثك بكل سهولة وكفاءة.';
+
+  @override
+  String get connectwithFriendsandShareMoments =>
+      'تواصل مع الأصدقاء وشارك اللحظات';
+
+  @override
+  String get connectWithFriendsDescription =>
+      'ابق على تواصل وشارك لحظاتك المفضلة مع الأصدقاء.';
 }
